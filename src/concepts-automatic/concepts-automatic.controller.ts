@@ -3,9 +3,11 @@ import { ConceptsAutomaticService } from './concepts-automatic.service';
 
 @Controller('concepts-automatic')
 export class ConceptsAutomaticController {
-    constructor(private readonly conceptsAutomaticService: ConceptsAutomaticService) { }
-    @Get()
-    home(): string {
-        return this.conceptsAutomaticService.getHello();
-    }
+  constructor(
+    private readonly conceptsAutomaticService: ConceptsAutomaticService,
+  ) {}
+  @Get()
+  home(): string {
+    return this.conceptsAutomaticService.getHello();
+  }
 }

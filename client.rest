@@ -1,31 +1,35 @@
 @baseUrl = http://localhost:3000
 
-### AppControllerGetHello
-
+### 🏠 Home Controller
 # @name AppControllerGetHello
 GET {{baseUrl}}/home
 
 
-### ConceptsManualController
-
+###  Concepts Manual
 # @name ConceptsManualController
 GET {{baseUrl}}/concepts-manual
 
 
-### ConceptsAutomaticController
-
+###  Concepts Automatic
 # @name ConceptsAutomaticController
 GET {{baseUrl}}/concepts-automatic
 
 
-### Messages Controller
+### 💬 Messages Controller
 
-### Get all messages
-GET  {{baseUrl}}/messages
+#  Get all messages
+GET {{baseUrl}}/messages
 
-### Get one message
+#  Get one message
+GET {{baseUrl}}/messages/1/
 
-GET {{baseUrl}}/messages/1
+#  Create new message
+POST {{baseUrl}}/messages/
+Content-Type: application/json
+
+{
+  "message": "Message.."
+}
 
 
 

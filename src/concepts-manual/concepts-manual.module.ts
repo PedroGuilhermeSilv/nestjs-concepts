@@ -6,4 +6,4 @@ import { ConceptsManualService } from './concepts-manual.service';
   controllers: [ConceptsManualController],
   providers: [ConceptsManualService],
 })
-export class ConceptsManualModule { }
+export class ConceptsManualModule {}
