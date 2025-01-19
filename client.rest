@@ -18,6 +18,19 @@ GET {{baseUrl}}/concepts-manual
 GET {{baseUrl}}/concepts-automatic
 
 
+### Messages Controller
+
+### Get all messages
+GET  {{baseUrl}}/messages
+
+### Get one message
+
+GET {{baseUrl}}/messages/1
+
+
+
+
+
 
 
 
